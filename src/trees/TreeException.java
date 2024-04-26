@@ -1,9 +1,9 @@
 package trees;
 
-public class TreeException extends ???
+public class TreeException extends Exception 
 {
-	public TreeException(String s)
-	{
-		// Pass s into a superclass ctor.
-	}
+    public TreeException(String s)
+    {
+        super(s); // Pass the string s to the superclass constructor
+    }
 }
